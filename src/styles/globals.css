@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+}
+
+@layer components {
+    .image-grid > div {
+        @apply mx-auto
+    }
+    .image-grid > div > img {
+        @apply rounded-xl 
+    }
+}
+
+@layer utilities {
+
+}
