@@ -2,18 +2,23 @@
   "items": [
     {
       "id": 1,
-      "image": "/images/city1.jpeg",
+      "image": "/images/mumbai.jpg",
       "title": "Mumbai"
     },
     {
       "id": 2,
       "image": "/images/delhi.jpg",
-      "title": "Rajkot"
+      "title": "Delhi"
     },
     {
       "id": 3,
       "image": "/images/rajkot.jpg",
-      "title": "Delhi"
+      "title": "Rajkot"
+    },
+    {
+      "id": 4,
+      "image": "/images/ahmedabad.jpeg",
+      "title": "Ahmedabad"
     }
   ]
 }

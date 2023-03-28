@@ -1,20 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f5f5f5;
+    }
 }
 
 @layer components {
+    .gallery-item { 
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        transition: transform 0.3s ease;
+    }
+}
+
+@layer utilities {
     .image-grid > div {
         @apply mx-auto
     }
     .image-grid > div > img {
         @apply rounded-xl 
     }
-}
-
-@layer utilities {
-
 }
